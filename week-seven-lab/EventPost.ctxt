@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=username\ eventType
+comment0.target=EventPost(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ EventPost.\r\n\ \r\n\ @param\ username\ \ The\ username\ that's\ connected\ to\ the\ event.\r\n\ @param\ eventType\ \ The\ type\ of\ event\ that\ we\ are\ creating,\ such\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ as\ a\ "friend"\ or\ "update\ profile"\ event.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getEventType()
+comment1.text=\r\n\ Return\ the\ event\ type\ of\ this\ post.\r\n\ \r\n\ @return\ \ The\ post's\ event\ type.\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Overwrite\ of\ the\ standart\ toString()\ method\ that\ returns\ a\r\n\ formatted\ string\ describing\ the\ event\ post\ in\ detail.\r\n\ \r\n\ @return\ \ A\ formatted\ string\ describing\ all\ of\ the\ elements\r\n\ \ \ \ \ \ \ \ \ \ of\ the\ event\ post.\r\n
+numComments=3

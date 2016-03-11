@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=author
+comment0.target=Post(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Post.\r\n\ \r\n\ @param\ author\ \ \ \ The\ username\ of\ the\ author\ of\ this\ post.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getUserName()
+comment1.text=\r\n\ Return\ the\ username\ associated\ with\ this\ post.\r\n\ \r\n\ @return\ \ The\ post's\ username,\ as\ a\ string.\r\n
+comment2.params=
+comment2.target=long\ getTimeStamp()
+comment2.text=\r\n\ Return\ the\ time\ of\ creation\ of\ this\ post.\r\n\ \r\n\ @return\ The\ post's\ creation\ time,\ as\ a\ system\ time\ value.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getTimeString()
+comment3.text=\r\n\ Return\ the\ timeString\ indicating\ how\ long\ ago\ the\ post\ was\ created.\r\n\ \r\n\ @return\ \ The\ difference\ between\ the\ post's\ creation\ time\ and\r\n\ \ \ \ \ \ \ \ \ \ current\ system\ time.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Overwrite\ of\ the\ toString()\ method\ that\ returns\ the\ username\ and\r\n\ time\ since\ the\ post\ was\ created,\ formatted\ in\ a\ string.\r\n\ \r\n\ @return\ \ The\ username\ associated\ with\ the\ post\ and\ the\ time\ since\r\n\ \ \ \ \ \ \ \ \ \ the\ post\ was\ created,\ as\ a\ formatted\ string.\r\n
+comment5.params=time
+comment5.target=java.lang.String\ timeString(long)
+comment5.text=\r\n\ Create\ a\ string\ describing\ a\ time\ point\ in\ the\ past\ in\ terms\ \r\n\ relative\ to\ current\ time,\ such\ as\ "30\ seconds\ ago"\ or\ "7\ minutes\ ago".\r\n\ Currently,\ only\ seconds\ and\ minutes\ are\ used\ for\ the\ string.\r\n\ \r\n\ @param\ time\ \ The\ time\ value\ to\ convert\ (in\ system\ milliseconds)\r\n\ @return\ \ \ \ \ \ A\ relative\ time\ string\ for\ the\ given\ time\r\n
+numComments=6
